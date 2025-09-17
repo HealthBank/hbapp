@@ -20,13 +20,25 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>healthbank</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>healthbank</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
@@ -34,6 +46,8 @@
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+	<key>RCTNewArchEnabled</key>
+	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -48,5 +62,30 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>branch_domain</key>
+	<array>
+		<string>link.healthbank.io</string>
+		<string>healthbank.app.link</string>
+		<string>healthbank-alternate.app.link</string>
+		<string>healthbank.test-app.link</string>
+		<string>healthbank-alternate.test-app.link</string>
+		<string>healthbank-stg.app.link</string>
+		<string>healthbank-stg-alternate.app.link</string>
+	</array>
+	<key>branch_key</key>
+	<dict>
+		<key>live</key>
+		<string>key_live_bgYxxxxxxxxxxxx</string>
+	</dict>
+	<key>branch_universal_link_domains</key>
+	<array>
+		<string>link.healthbank.io</string>
+		<string>healthbank.app.link</string>
+		<string>healthbank-alternate.app.link</string>
+		<string>healthbank.test-app.link</string>
+		<string>healthbank-alternate.test-app.link</string>
+		<string>healthbank-stg.app.link</string>
+		<string>healthbank-stg-alternate.app.link</string>
+	</array>
 </dict>
 </plist>

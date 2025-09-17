@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:link.healthbank.io</string>
+		<string>applinks:healthbank.app.link</string>
+		<string>applinks:healthbank-alternate.app.link</string>
+		<string>applinks:healthbank.test-app.link</string>
+		<string>applinks:healthbank-alternative.test-app.link</string>
+		<string>applinks:healthbank-stg.app.link</string>
+		<string>applinks:healthbank-stg-alternate.app.link</string>
+		<string>webcredentials:*healthbank.io</string>
+	</array>
+	<key>com.apple.developer.healthkit</key>
+	<true/>
+	<key>com.apple.developer.healthkit.access</key>
+	<array>
+		<string>health-records</string>
+	</array>
+	<key>com.apple.developer.healthkit.background-delivery</key>
+	<true/>	
+</dict>
+</plist>
